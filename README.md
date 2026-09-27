@@ -1,69 +1,49 @@
 # Tharani Natarajan – Personal Portfolio
 
-## About
-This portfolio website was developed as part of the Synent Technologies Web Development Internship (Task 1). It is a professional, responsive, single-page application built to showcase my academic profile, internship experiences, technical skills, and featured projects.
+Welcome to the personal portfolio website of **Tharani Natarajan**, a pre-final year B.Tech Artificial Intelligence and Data Science student at IFET College of Engineering, Villupuram.
 
-## Education
-- **Degree:** B.Tech – Artificial Intelligence and Data Science
-- **College:** IFET College of Engineering
-- **Status:** Pre-final year
+## About The Portfolio
+This single-page portfolio is designed with a modern **Soft Lavender Purple theme**, clean typography, responsive layouts, dark/light mode toggle, and authentic personal data extracted from verified credentials, project repositories, and resume.
 
-## Internship Experience
-- **Onesys Infotech:** Web Development Intern
-- **Horizon TechX:** Data Science Intern
-- **AVIRENZA Technologies:** AI/ML Intern
-- **Synent Technologies:** Web Development & Designing Intern
-
-## Skills
-- **Programming:** Python, SQL, JavaScript
-- **Data Science & Analytics:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Data Analysis, Machine Learning
-- **Web Development:** HTML5, CSS3, JavaScript, React, Node.js, FastAPI, Streamlit
-- **Tools:** Git, GitHub, VS Code, Jupyter Notebook
-
-## Featured Projects
-1. **PetCare:** Web-Based Pet Health Management System (HTML, CSS, JavaScript, PHP)
-2. **SmartFit AI:** AI-Powered Resume Analyzer (React, FastAPI, Python, Machine Learning)
-3. **MindStay Wellness:** AI Mental Stress Analyzer (Python, Machine Learning, Streamlit)
+## Key Highlights & Sections
+1. **Hero Section:** Introduction, academic status, quick stat counters, social links, resume download button, and profile photo.
+2. **About Me:** Authentic personal bio, degree specialization, CGPA (8.6/10), and career interests.
+3. **Education:** Detailed academic timeline at IFET College of Engineering.
+4. **Technical Skills:** Categorized skill cards for Programming, Web Frameworks, Data Science & ML, Databases, BI & Developer Tools.
+5. **Internships:** Detailed, separated experience cards for:
+   - **Synent Technologies** (Web Development & Designing Intern - Current)
+   - **Oneyes Infotech Solutions** (Web Technology Intern)
+   - **Horizon TechX** (Data Science Intern)
+   - **AVIRENZA Technologies** (AI/ML Intern)
+6. **Featured Projects:** In-depth showcases for:
+   - **Geldium AI:** AI-Powered Collections Management System (FastAPI, React, scikit-learn, Railway, Vercel)
+   - **AI-Powered Adaptive Intrusion Detection System:** Hybrid RF + LSTM Deep Learning Cyber Solution (PyTorch, Flask, React, NSL-KDD)
+   - **SmartFit AI:** Job-Resume Compatibility Analyzer (FastAPI, React, TF-IDF, Cosine Similarity)
+   - **MindStay Wellness:** Mental Stress Analyzer (Streamlit, Python, ML - Mailam Hackathon Winner)
+   - **Web-Based PetCare Management System:** Health records, appointments & owner dashboard (HTML, CSS, JS, Node.js, MongoDB)
+7. **Paper Presentation:** Dedicated research presentation section detailing the Intrusion Detection System paper, hybrid methodology, and attack DNA radar.
+8. **Certifications:** Verified credentials from IBM, AWS, Infosys Springboard, Simplilearn, Novitech, NPTEL, Cisco CCNA, Tata, Top Engineers, and GUVI.
+9. **Achievements:** National Level Hackathon Motivational Prize & Internship Award at Mailam College of Engineering.
+10. **Contact:** Interactive form with front-end validation, direct email, phone number, and online profile badges.
 
 ## Technologies Used
-- HTML5
-- CSS3
-- Vanilla JavaScript
+- **Frontend:** HTML5, Vanilla CSS3 (CSS Variables, Flexbox, CSS Grid), Vanilla JavaScript (ES6+)
+- **Icons & Fonts:** FontAwesome 6.4.0, Plus Jakarta Sans, Space Grotesk
+- **Assets:** Personal photo, verified certificate documents, ATS resume file.
 
 ## Features
-- **Responsive Design:** Ensures a seamless experience across desktop, tablet, and mobile devices.
-- **Sticky Navigation:** Enables smooth scrolling and highlights the active section.
-- **Modern UI Theme:** A professional soft purple and light-pink gradient theme with clean typography and rounded components.
-- **Contact Form Validation:** Front-end JavaScript validation for user interactions. Note: The contact form currently implements front-end validation only; backend processing is not yet integrated.
-- **Subtle Animations:** Employs fade-in effects on scroll and smooth hover transitions.
+- **Dark / Light Mode Toggle:** Smooth theme switching with local storage memory.
+- **Sticky Blur Header:** Glassmorphic navbar with section active state indicators.
+- **Responsive Layout:** Tailored media queries for Desktop, Laptop, Tablet, and Mobile devices.
+- **Scroll Reveal Animations:** IntersectionObserver effects for fluid transitions.
 
-## Project Structure
-```text
-Task 1/
-│
-├── index.html        # Main HTML structure
-├── style.css         # CSS styles and responsive queries
-├── script.js         # JavaScript logic for interactivity
-├── assets/           # Images and icons (currently placeholders)
-└── README.md         # Project documentation
-```
-
-## How to Run
-1. Clone the repository to your local machine.
-2. Navigate to the `Task 1` directory.
-3. Open `index.html` in any modern web browser (e.g., Chrome, Firefox, Edge).
-No local server is required to view the portfolio.
-
-## Responsive Design
-- Utilizes CSS media queries to adapt layouts to various screen sizes.
-- A hamburger menu toggle is implemented for mobile navigation.
-- Flexbox and CSS Grid are used to create flexible components such as experience cards and project listings.
-
-## Future Improvements
-- Implement backend functionality for the contact form.
-- Add actual project screenshots to the assets folder.
-- Deploy the portfolio live using GitHub Pages or a similar service.
+## How to View
+Simply open `index.html` in any modern web browser or view live via local server at `http://localhost:8000`.
 
 ## Author
-**Tharani Natarajan**
-B.Tech Artificial Intelligence and Data Science Student
+**Tharani Natarajan**  
+B.Tech Artificial Intelligence & Data Science  
+IFET College of Engineering, Villupuram  
+Email: tharanin1301@gmail.com  
+GitHub: [github.com/tharanin1301-dotcom](https://github.com/tharanin1301-dotcom)  
+LinkedIn: [linkedin.com/in/tharani-natarajan-5a364b340](https://linkedin.com/in/tharani-natarajan-5a364b340)
