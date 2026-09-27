@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Book Appointment</title>
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background:#eef2f7;
+}
+
+/* Layout */
+.wrapper{
+    display:flex;
+    min-height:100vh;
+}
+
+/* Sidebar */
+.sidebar{
+    width:250px;
+    background:linear-gradient(180deg,#43a047,#1b5e20);
+    color:white;
+    padding:25px 20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:14px;
+    margin:8px 0;
+    border-radius:10px;
+}
+
+.sidebar a:hover{
+    background:rgba(255,255,255,0.2);
+}
+
+/* Main */
+.main{
+    flex:1;
+    padding:30px;
+}
+
+/* Header */
+.header{
+    background:linear-gradient(135deg,#42a5f5,#1e88e5);
+    color:white;
+    padding:25px;
+    border-radius:20px;
+    margin-bottom:30px;
+}
+
+.header h1{
+    margin:0;
+}
+
+.header p{
+    opacity:0.9;
+}
+
+/* Form card */
+.form-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.1);
+    max-width:700px;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+}
+
+label{
+    font-weight:600;
+    color:#333;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #ccc;
+    margin-top:6px;
+    font-size:14px;
+}
+
+textarea{
+    resize:none;
+}
+
+/* Button */
+button{
+    margin-top:25px;
+    width:100%;
+    padding:14px;
+    background:linear-gradient(135deg,#43a047,#2e7d32);
+    color:white;
+    border:none;
+    border-radius:12px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>🐾 PetCare</h2>
+        <a href="dashboard.html">🏠 Dashboard</a>
+        <a href="#">🐶 My Pets</a>
+        <a href="#">📅 Appointments</a>
+        <a href="#">💉 Vaccinations</a>
+        <a href="#">📋 Health Records</a>
+        <a href="#">💡 Care Tips</a>
+        <a href="#">⚙ Profile</a>
+        <a href="#">🚪 Logout</a>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Book Veterinary Appointment</h1>
+            <p>Schedule a visit for your pet with a preferred veterinarian</p>
+        </div>
+
+        <!-- Appointment Form -->
+        <div class="form-card">
+            <form onsubmit="book(event)">
+                <div class="form-grid">
+
+                    <div>
+                        <label>Pet Name</label>
+                        <select required>
+                            <option>Select Pet</option>
+                            <option>Buddy</option>
+                            <option>Milo</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Veterinarian</label>
+                        <select required>
+                            <option>Select Doctor</option>
+                            <option>Dr. Kumar</option>
+                            <option>Dr. Anitha</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Appointment Date</label>
+                        <input type="date" required>
+                    </div>
+
+                    <div>
+                        <label>Preferred Time</label>
+                        <input type="time" required>
+                    </div>
+
+                    <div>
+                        <label>Visit Type</label>
+                        <select required>
+                            <option>Routine Checkup</option>
+                            <option>Vaccination</option>
+                            <option>Emergency</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Contact Number</label>
+                        <input type="text" placeholder="Enter contact number" required>
+                    </div>
+
+                </div>
+
+                <label style="margin-top:20px;">Reason for Visit</label>
+                <textarea rows="4" placeholder="Describe the issue or purpose of visit"></textarea>
+
+                <button type="submit">Confirm Appointment</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script>
+function book(e){
+    e.preventDefault();
+    alert("Appointment booked successfully!\nStatus: Pending approval");
+    // window.location.href = "dashboard.html";
+}
+</script>
+
+</body>
+</html>

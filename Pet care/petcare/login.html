@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PetCare Login</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#8e2de2,#ff4ecd);
+}
+
+/* Card */
+.login-card{
+    width:400px;
+    background:#ffffff;
+    border-radius:18px;
+    padding:40px 35px;
+    box-shadow:0 30px 60px rgba(0,0,0,0.25);
+}
+
+/* Title */
+.login-card h1{
+    text-align:center;
+    color:#8e2de2;
+    font-size:28px;
+    margin-bottom:8px;
+}
+
+.login-card p{
+    text-align:center;
+    color:#777;
+    font-size:14px;
+    margin-bottom:30px;
+}
+
+/* Input group */
+.group{
+    margin-bottom:20px;
+}
+
+.group label{
+    display:block;
+    font-size:13px;
+    color:#555;
+    margin-bottom:6px;
+}
+
+.group input{
+    width:100%;
+    padding:14px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    font-size:14px;
+}
+
+.group input:focus{
+    outline:none;
+    border-color:#ff4ecd;
+}
+
+/* Button */
+.login-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:14px;
+    background:linear-gradient(135deg,#8e2de2,#ff4ecd);
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.login-btn:hover{
+    opacity:0.9;
+}
+
+/* Links */
+.links{
+    text-align:center;
+    margin-top:22px;
+    font-size:14px;
+}
+
+.links a{
+    text-decoration:none;
+    color:#8e2de2;
+    font-weight:600;
+}
+</style>
+</head>
+
+<body>
+
+<div class="login-card">
+    <h1>🐾 PetCare</h1>
+    <p>Veterinary & Pet Care Management System</p>
+
+    <div class="group">
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter username">
+    </div>
+
+    <div class="group">
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+    </div>
+
+    <button class="login-btn" onclick="login()">Login</button>
+
+    <div class="links">
+        Don’t have an account?
+        <a href="#">Create Account</a>
+    </div>
+</div>
+
+<!-- ✅ FINAL CORRECT SCRIPT -->
+<script>
+function login(){
+    let u = document.getElementById("username").value;
+    let p = document.getElementById("password").value;
+
+    if(u && p){
+        window.location.href = "dashboard.html";
+    }else{
+        alert("Please enter username and password");
+    }
+}
+</script>
+
+</body>
+</html>

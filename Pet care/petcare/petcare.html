@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pet Care Tips</title>
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background:#eef2f7;
+}
+
+/* Layout */
+.wrapper{
+    display:flex;
+    min-height:100vh;
+}
+
+/* Sidebar */
+.sidebar{
+    width:250px;
+    background:linear-gradient(180deg,#43a047,#1b5e20);
+    color:white;
+    padding:25px 20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:14px;
+    margin:8px 0;
+    border-radius:10px;
+}
+
+.sidebar a:hover{
+    background:rgba(255,255,255,0.2);
+}
+
+/* Main */
+.main{
+    flex:1;
+    padding:30px;
+}
+
+/* Header */
+.header{
+    background:linear-gradient(135deg,#ff7043,#f4511e);
+    color:white;
+    padding:25px;
+    border-radius:20px;
+    margin-bottom:30px;
+}
+
+.header h1{
+    margin:0;
+}
+
+/* Tips Grid */
+.tips{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap:25px;
+}
+
+/* Tip Card */
+.tip-card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.12);
+    border-left:8px solid;
+}
+
+.tip-card h3{
+    margin-top:0;
+}
+
+.tip-card ul{
+    padding-left:18px;
+}
+
+.tip-card li{
+    margin:10px 0;
+    color:#444;
+}
+
+/* Colors */
+.blue{ border-color:#42a5f5; }
+.green{ border-color:#43a047; }
+.orange{ border-color:#fb8c00; }
+.pink{ border-color:#ec407a; }
+.purple{ border-color:#7e57c2; }
+.teal{ border-color:#26a69a; }
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>🐾 PetCare</h2>
+        <a href="dashboard.html">🏠 Dashboard</a>
+        <a href="mypets.html">🐶 My Pets</a>
+        <a href="appointments.html">📅 Appointments</a>
+        <a href="vaccinations.html">💉 Vaccinations</a>
+        <a href="health-records.html">🩺 Health Records</a>
+        <a href="care-tips.html">💡 Care Tips</a>
+        <a href="#">⚙ Profile</a>
+        <a href="#">🚪 Logout</a>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Pet Care Recommendations</h1>
+            <p>Daily handling tips to keep your pet healthy, calm & happy</p>
+        </div>
+
+        <!-- Tips -->
+        <div class="tips">
+
+            <div class="tip-card blue">
+                <h3>🐕 Daily Routine Care</h3>
+                <ul>
+                    <li>Feed pets at fixed times daily</li>
+                    <li>Provide fresh water 24×7</li>
+                    <li>Maintain a consistent walking schedule</li>
+                    <li>Avoid sudden routine changes</li>
+                </ul>
+            </div>
+
+            <div class="tip-card green">
+                <h3>🍖 Food Handling</h3>
+                <ul>
+                    <li>Avoid chocolate, onion & spicy food</li>
+                    <li>Control portions to prevent obesity</li>
+                    <li>Use treats only for training</li>
+                    <li>Do not overfeed out of affection</li>
+                </ul>
+            </div>
+
+            <div class="tip-card orange">
+                <h3>🩺 Home Health Check</h3>
+                <ul>
+                    <li>Check eyes & ears weekly</li>
+                    <li>Watch for itching or hair loss</li>
+                    <li>Monitor appetite changes</li>
+                    <li>Visit vet if symptoms appear</li>
+                </ul>
+            </div>
+
+            <div class="tip-card pink">
+                <h3>💉 Vaccination & Medicines</h3>
+                <ul>
+                    <li>Never miss vaccination dates</li>
+                    <li>Do not reuse old prescriptions</li>
+                    <li>Never change medicine dosage</li>
+                    <li>Consult vet before any medication</li>
+                </ul>
+            </div>
+
+            <div class="tip-card purple">
+                <h3>🐾 Behavior Management</h3>
+                <ul>
+                    <li>Never shout or hit pets</li>
+                    <li>Use calm voice & positive rewards</li>
+                    <li>Give pets a safe resting space</li>
+                    <li>Spend daily bonding time</li>
+                </ul>
+            </div>
+
+            <div class="tip-card teal">
+                <h3>🌦 Weather-Based Care</h3>
+                <ul>
+                    <li>Summer: walk only morning/evening</li>
+                    <li>Rainy: dry paws to prevent fungus</li>
+                    <li>Winter: warm bedding for seniors</li>
+                    <li>Hydration is critical in all seasons</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
+<div class="sidebar">
+    <h2>🐾 PetCare</h2>
+
+    <a href="profile.html">⚙ Profile</a>
+    <a href="dashboard.html">🏠 Dashboard</a>
+    <a href="mypets.html">🐶 My Pets</a>
+    <a href="appointments.html">📅 Appointments</a>
+    <a href="vaccination.html">💉 Vaccinations</a>
+    <a href="health.html">📋 Health Records</a>
+    <a href="caretips.html">💡 Care Tips</a>
+    <a href="login.html">🚪 Logout</a>
+</div>
