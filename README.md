@@ -19,7 +19,7 @@ This single-page portfolio is designed with a modern **Soft Lavender Purple them
    - **Geldium AI:** AI-Powered Collections Management System (FastAPI, React, scikit-learn, Railway, Vercel)
    - **AI-Powered Adaptive Intrusion Detection System:** Hybrid RF + LSTM Deep Learning Cyber Solution (PyTorch, Flask, React, NSL-KDD)
    - **SmartFit AI:** Job-Resume Compatibility Analyzer (FastAPI, React, TF-IDF, Cosine Similarity)
-   - **MindStay Wellness:** Mental Stress Analyzer (Streamlit, Python, ML - Mailam Hackathon Winner)
+   - **MindStay Wellness:** Mental Stress Analyzer (Streamlit, Python, ML - Mailam Hackathon Motivational Prize)
    - **Web-Based PetCare Management System:** Health records, appointments & owner dashboard (HTML, CSS, JS, Node.js, MongoDB)
 7. **Paper Presentation:** Dedicated research presentation section detailing the Intrusion Detection System paper, hybrid methodology, and attack DNA radar.
 8. **Certifications:** Verified credentials from IBM, AWS, Infosys Springboard, Simplilearn, Novitech, NPTEL, Cisco CCNA, Tata, Top Engineers, and GUVI.
